@@ -1,5 +1,5 @@
 name: Bootstrapper
-version: 0.9
+version: 1.0.0
 description: "Loads the Boostrap Framework CSS and JS for any plugin/theme that needs it"
 icon: file-code-o
 author:
