@@ -1,0 +1,27 @@
+name: Bootstrapper
+version: 1.0.0
+description: "Loads the Boostrap Framework CSS and JS for any plugin/theme that needs it"
+icon: file-code-o
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-plugin-bootstrapper
+demo: http://demo.getgrav.org/bootstrap-skeleton/
+keywords: bootstrap, css, plugin, framework
+bugs: https://github.com/getgrav/grav-plugin-bootstrapper/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
