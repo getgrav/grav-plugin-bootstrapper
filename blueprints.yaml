@@ -1,7 +1,7 @@
 name: Bootstrapper
 version: 1.0.0
-description: "Loads the Boostrap Framework CSS and JS for any plugin/theme that needs it"
-icon: file-code-o
+description: "Loads the Boostrap Framework v3.3.2 assets for any plugin/theme that needs it"
+icon: bold
 author:
   name: Team Grav
   email: devs@getgrav.org
