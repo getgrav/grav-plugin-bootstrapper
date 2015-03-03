@@ -61,7 +61,7 @@ class BootstrapperPlugin extends Plugin
         if ($config['load_theme_css']) {
             $bootstrap_bits[] = 'plugin://bootstrapper/css/bootstrap-theme'.$mode.'.css';
         }
-        if ($config['load_core_css']) {
+        if ($config['load_core_js']) {
             $bootstrap_bits[] = 'plugin://bootstrapper/js/bootstrap'.$mode.'.js';
         }
 
