@@ -1,13 +1,19 @@
+# v1.0.2
+## 03/04/2015
+
+1. [](#bugfix)
+    * Fix for properly toggling loading of core JS
+
 # v1.0.1
 ## 02/28/2015
 
-2. [](#improved)
+1. [](#improved)
     * Updated blueprints
 
 # v1.0.0
 ## 02/27/2015
 
-2. [](#improved)
+1. [](#improved)
     * Updated to Bootstrap version **v3.3.2**
 
 # v0.9
