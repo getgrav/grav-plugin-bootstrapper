@@ -1,6 +1,6 @@
 name: Bootstrapper
-version: 1.0.1
-description: "Loads the Bootstrap Framework v3.3.2 assets for any plugin/theme that needs it"
+version: 1.0.2
+description: "Loads the Boostrap Framework v3.3.2 assets for any plugin/theme that needs it"
 icon: bold
 author:
   name: Team Grav
