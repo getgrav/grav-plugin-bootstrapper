@@ -25,7 +25,7 @@ To best understand what Bootstrapper plugin provides, you should read through th
 
 ## Configuration
 
-Featherlight is **enabled** but **not active** by default.  You can change this behavior by setting `active: true` in the plugin's configuration.  Simply copy the `user/plugins/bootstrapper/bootstrapper.yaml` into `user/config/plugins/bootstrapper.yaml` and make your modifications.
+Bootstrapper is **enabled** but **not active** by default.  You can change this behavior by setting `active: true` in the plugin's configuration.  Simply copy the `user/plugins/bootstrapper/bootstrapper.yaml` into `user/config/plugins/bootstrapper.yaml` and make your modifications.
 
 ```
 enabled: true                   # Enable / Disable this plugin
