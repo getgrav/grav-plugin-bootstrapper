@@ -25,3 +25,57 @@ form:
         0: Disabled
       validate:
         type: bool
+
+    always_load:
+      type: toggle
+      label: Always load
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+      help: 'If disabled, let the theme decide to load the bootstrap plugin'
+
+    mode:
+      type: text
+      size: medium
+      label: Mode
+      default: 'production'
+
+    load_core_css:
+      type: toggle
+      label: Load Core CSS
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    load_theme_css:
+      type: toggle
+      label: Load Theme CSS
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    load_core_js:
+      type: toggle
+      label: Load Core JS
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+
+
