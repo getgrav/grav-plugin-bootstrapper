@@ -39,10 +39,14 @@ form:
       help: 'If disabled, let the theme decide to load the bootstrap plugin'
 
     mode:
-      type: text
-      size: medium
+      type: select
+      size: small
       label: Mode
       default: 'production'
+      options:
+        development: Development
+        production: Production
+
 
     load_core_css:
       type: toggle
