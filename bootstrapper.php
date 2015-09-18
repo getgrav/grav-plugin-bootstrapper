@@ -23,7 +23,7 @@ class BootstrapperPlugin extends Plugin
     public function onThemeInitialized()
     {
         if ($this->isAdmin()) {
-            $this->active = false;
+            return;
         }
 
         $load_events = false;
