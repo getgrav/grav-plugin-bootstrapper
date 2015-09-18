@@ -1,3 +1,11 @@
+# v1.3.0
+## 09/18/2015
+
+1. [](#new)
+    * Added support for official Bootstrap CDN
+1. [](#improved)
+    * Updated to Bootstrap version **v3.3.5**
+
 # v1.2.0
 ## 09/18/2015
 
