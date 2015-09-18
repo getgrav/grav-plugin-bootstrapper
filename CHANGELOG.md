@@ -1,3 +1,9 @@
+# v1.2.0
+## 09/18/2015
+
+1. [](#improved)
+    * Don't load stuff in admin
+
 # v1.1.0
 ## 08/25/2015
 
