@@ -1,3 +1,9 @@
+# v1.5.0
+## 09/25/2015
+
+1. [](#new)
+    * Added support for Font Awesome
+
 # v1.4.0
 ## 09/19/2015
 

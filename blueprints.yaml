@@ -1,5 +1,5 @@
 name: Bootstrapper
-version: 1.4.0
+version: 1.5.0
 description: "Loads the Bootstrap Framework v3.3.5 assets for any plugin/theme that needs it"
 icon: bold
 author:
@@ -37,7 +37,7 @@ form:
       validate:
         type: bool
       help: PLUGIN_BOOTSTRAPPER.ALWAYS_LOAD_HELP
-      
+
     use_cdn:
       type: toggle
       label: PLUGIN_BOOTSTRAPPER.USE_CDN
@@ -59,6 +59,10 @@ form:
         development: Development
         production: Production
 
+    bootstrap_features:
+      type: section
+      title: PLUGIN_BOOTSTRAPPER.BOOTSTRAP_FEATURES
+      underline: false
 
     load_core_css:
       type: toggle
@@ -85,6 +89,22 @@ form:
     load_core_js:
       type: toggle
       label: PLUGIN_BOOTSTRAPPER.LOAD_CORE_JS
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    additional_features:
+      type: section
+      title: PLUGIN_BOOTSTRAPPER.ADDITIONAL_FEATURES
+      underline: false
+
+    load_font_awesome:
+      type: toggle
+      label: PLUGIN_BOOTSTRAPPER.LOAD_FONT_AWESOME
       highlight: 1
       default: 1
       options:

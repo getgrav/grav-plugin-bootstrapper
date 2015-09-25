@@ -5,3 +5,4 @@ mode: production
 load_core_css: true
 load_theme_css: true
 load_core_js: true
+load_font_awesome: true

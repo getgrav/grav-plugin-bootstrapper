@@ -56,7 +56,7 @@ class BootstrapperPlugin extends Plugin
         $bootstrap_bits = [];
 
         if ($config['use_cdn']) {
-            if ($config['load_core_css']) {                
+            if ($config['load_core_css']) {
                 $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap'.$mode.'.css';
             }
             if ($config['load_theme_css']) {
@@ -64,6 +64,9 @@ class BootstrapperPlugin extends Plugin
             }
             if ($config['load_core_js']) {
                 $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap'.$mode.'.js';
+            }
+            if ($config['load_font_awesome']) {
+                $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome'.$mode.'.css';
             }
         } else {
             if ($config['load_core_css']) {
@@ -74,6 +77,9 @@ class BootstrapperPlugin extends Plugin
             }
             if ($config['load_core_js']) {
                 $bootstrap_bits[] = 'plugin://bootstrapper/js/bootstrap'.$mode.'.js';
+            }
+            if ($config['load_font_awesome']) {
+                $bootstrap_bits[] = 'plugin://bootstrapper/css/font-awesome'.$mode.'.css';
             }
         }
 
