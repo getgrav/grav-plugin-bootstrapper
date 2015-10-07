@@ -1,14 +1,9 @@
-# v1.4.0
-## 09/19/2015
-
-1. [](#new)
-    * Added Russian translations
-
 # v1.3.0
-## 09/18/2015
+## 10/07/2015
 
 1. [](#new)
     * Added support for official Bootstrap CDN
+    * Added Russian translations
 1. [](#improved)
     * Updated to Bootstrap version **v3.3.5**
 
