@@ -21,3 +21,15 @@ ru:
     LOAD_CORE_CSS: 'Загружать основной CSS'
     LOAD_THEME_CSS: 'Загружать CSS темы оформления'
     LOAD_CORE_JS: 'Загружать основной JS'
+    
+fr:
+  PLUGIN_BOOTSTRAPPER:
+    STATUS: 'Etat du plugin'
+    ALWAYS_LOAD: 'Toujours charger'
+    ALWAYS_LOAD_HELP: 'Si désactivé, laisser le thème décider de charger le plugin bootstrap'
+    USE_CDN: 'Utiliser le CDN Bootstrap'
+    USE_CDN_HELP: "Charger le CSS de Bootstrap et le JavaScript depuis le CDN"
+    MODE: 'Mode'
+    LOAD_CORE_CSS: 'Charger le core CSS'
+    LOAD_THEME_CSS: 'Charger le thème CSS'
+    LOAD_CORE_JS: 'Charger le core JS'
