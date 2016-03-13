@@ -1,3 +1,11 @@
+# v1.3.1
+## 03/12/2016
+
+1. [](#new)
+    * Added French translations
+1. [](#improved)
+    * Updated to Bootstrap version **v3.3.6**
+
 # v1.3.0
 ## 10/07/2015
 
