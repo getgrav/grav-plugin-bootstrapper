@@ -1,3 +1,9 @@
+# v1.3.2
+## 03/21/2016
+
+1. [](#bugfix)
+    * Added minified version of JS/CSS too, left out in the last release
+
 # v1.3.1
 ## 03/12/2016
 
