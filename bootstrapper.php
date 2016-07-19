@@ -56,24 +56,40 @@ class BootstrapperPlugin extends Plugin
         $bootstrap_bits = [];
 
         if ($config['use_cdn']) {
-            if ($config['load_core_css']) {                
-                $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap'.$mode.'.css';
+            if ($config['load_core_css']) {
+                if (!$config['load_custom_css']) {
+                    $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap'.$mode.'.css';
+                } else {
+                    $bootstrap_bits[] = $config['load_custom_css'];
+                }
             }
             if ($config['load_theme_css']) {
-                $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme'.$mode.'.css';
+                $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme'.$mode.'.css';
             }
             if ($config['load_core_js']) {
-                $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap'.$mode.'.js';
+                if (!$config['load_custom_js']) {
+                    $bootstrap_bits[] = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap'.$mode.'.js';
+                } else {
+                    $bootstrap_bits[] = $config['load_custom_js'];
+                }
             }
         } else {
             if ($config['load_core_css']) {
-                $bootstrap_bits[] = 'plugin://bootstrapper/css/bootstrap'.$mode.'.css';
+                if (!$config['load_custom_css']) {
+                    $bootstrap_bits[] = 'plugin://bootstrapper/css/bootstrap'.$mode.'.css';
+                } else {
+                    $bootstrap_bits[] = $config['load_custom_css'];
+                }
             }
             if ($config['load_theme_css']) {
                 $bootstrap_bits[] = 'plugin://bootstrapper/css/bootstrap-theme'.$mode.'.css';
             }
             if ($config['load_core_js']) {
-                $bootstrap_bits[] = 'plugin://bootstrapper/js/bootstrap'.$mode.'.js';
+                if (!$config['load_custom_js']) {
+                    $bootstrap_bits[] = 'plugin://bootstrapper/js/bootstrap'.$mode.'.js';
+                } else {
+                    $bootstrap_bits[] = $config['load_custom_js'];
+                }
             }
         }
 

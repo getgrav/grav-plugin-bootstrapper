@@ -9,7 +9,9 @@ en:
     LOAD_CORE_CSS: 'Load Core CSS'
     LOAD_THEME_CSS: 'Load Theme CSS'
     LOAD_CORE_JS: 'Load Core JS'
-    
+    LOAD_CUSTOM_CSS: 'Load Core CSS from a custom URL'
+    LOAD_CUSTOM_JS: 'Load Core JS from a custom URL'
+
 ru:
   PLUGIN_BOOTSTRAPPER:
     STATUS: 'Состояние плагина'
@@ -21,7 +23,9 @@ ru:
     LOAD_CORE_CSS: 'Загружать основной CSS'
     LOAD_THEME_CSS: 'Загружать CSS темы оформления'
     LOAD_CORE_JS: 'Загружать основной JS'
-    
+    LOAD_CUSTOM_CSS: 'Загрузки основных CSS из пользовательского URL'
+    LOAD_CUSTOM_JS: 'Загрузка Core, JS из пользовательского URL'
+
 fr:
   PLUGIN_BOOTSTRAPPER:
     STATUS: 'Statut du plugin'
@@ -33,3 +37,5 @@ fr:
     LOAD_CORE_CSS: 'Charger les CSS du core'
     LOAD_THEME_CSS: 'Charger les CSS du thème'
     LOAD_CORE_JS: 'Charger les JS du core'
+    LOAD_CUSTOM_CSS: "Charger de base CSS à partir d'une URL personnalisée"
+    LOAD_CUSTOM_JS: "Charger de base JS à partir d'une URL personnalisée"
