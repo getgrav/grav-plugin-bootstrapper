@@ -59,7 +59,6 @@ form:
         development: Development
         production: Production
 
-
     load_core_css:
       type: toggle
       label: PLUGIN_BOOTSTRAPPER.LOAD_CORE_CSS
@@ -92,3 +91,11 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
+
+    load_custom_css:
+      type: text
+      label: PLUGIN_BOOTSTRAPPER.LOAD_CUSTOM_CSS
+
+    load_custom_js:
+      type: text
+      label: PLUGIN_BOOTSTRAPPER.LOAD_CUSTOM_JS
