@@ -2,7 +2,7 @@
 ## 07/xx/2016
 
 1. [](#new)
-    * Added German translation
+    * Added german and romanian translation
 
 # v1.3.2
 ## 03/21/2016
