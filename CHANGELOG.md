@@ -1,5 +1,5 @@
-# v1.3.x
-## 07/xx/2016
+# v1.3.3
+## 10/19/2016
 
 1. [](#new)
     * Added german and romanian translation
