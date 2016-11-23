@@ -1,15 +1,15 @@
 name: Bootstrapper
-version: 1.3.3
-description: "Loads the Bootstrap Framework v3.3.6 assets for any plugin/theme that needs it"
+version: 1.3.4
+description: "Loads the Bootstrap Framework v3.3.7 assets for any plugin/theme that needs it"
 icon: bold
 author:
-  name: Team Grav
-  email: devs@getgrav.org
+  name: Nissar Chababy
+  email: nissar.chababy@funilrys.com
   url: http://getgrav.org
-homepage: https://github.com/getgrav/grav-plugin-bootstrapper
+homepage: https://github.com/funilrys/grav-plugin-bootstrapper
 demo: http://demo.getgrav.org/bootstrap-skeleton/
 keywords: bootstrap, css, plugin, framework
-bugs: https://github.com/getgrav/grav-plugin-bootstrapper/issues
+bugs: https://github.com/funilrys/grav-plugin-bootstrapper/issues
 license: MIT
 
 form:
