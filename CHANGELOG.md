@@ -1,3 +1,9 @@
+# v1.3.4
+## 11/23/2016
+
+1. [](#improved)
+    * Updated to Bootstrap version **v3.3.7**
+
 # v1.3.3
 ## 10/19/2016
 
