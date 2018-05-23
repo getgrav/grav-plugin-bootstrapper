@@ -1,5 +1,6 @@
 en:
   PLUGIN_BOOTSTRAPPER:
+    VERSION: 'Bootstrap version'
     STATUS: 'Plugin status'
     ALWAYS_LOAD: 'Always load'
     ALWAYS_LOAD_HELP: 'If disabled, let the theme decide to load the bootstrap plugin'
@@ -7,7 +8,8 @@ en:
     USE_CDN_HELP: "Load Bootstrap's CSS and JavaScript from CDN"
     MODE: Mode
     LOAD_CORE_CSS: 'Load Core CSS'
-    LOAD_THEME_CSS: 'Load Theme CSS'
+    LOAD_THEME_CSS: 'Load Theme CSS (v3.3.7)'
+    LOAD_POPPER_JS: 'Load Popper JS (v4.1.1)'
     LOAD_CORE_JS: 'Load Core JS'
   
 de:
@@ -19,7 +21,8 @@ de:
     USE_CDN_HELP: "Bootstrap CSS und JavaScript vom CDN laden"
     MODE: 'Modus'
     LOAD_CORE_CSS: 'Core CSS laden'
-    LOAD_THEME_CSS: 'Theme CSS laden'
+    LOAD_THEME_CSS: 'Theme CSS laden (v3.3.7)'
+    LOAD_POPPER_JS: 'Popper JS laden (v4.1.1)'
     LOAD_CORE_JS: 'Core JS laden'
       
 ru:
@@ -31,7 +34,8 @@ ru:
     USE_CDN_HELP: "Загружать Bootstrap CSS и JavaScript из CDN"
     MODE: 'Режим'
     LOAD_CORE_CSS: 'Загружать основной CSS'
-    LOAD_THEME_CSS: 'Загружать CSS темы оформления'
+    LOAD_THEME_CSS: 'Загружать CSS темы оформления (v3.3.7)'
+    LOAD_POPPER_JS: 'Загружать Popper JS (v4.1.1)'
     LOAD_CORE_JS: 'Загружать основной JS'
     
 fr:
@@ -43,7 +47,8 @@ fr:
     USE_CDN_HELP: "Charger les CSS Bootstrap et les JavaScript depuis le CDN"
     MODE: 'Mode'
     LOAD_CORE_CSS: 'Charger les CSS du core'
-    LOAD_THEME_CSS: 'Charger les CSS du thème'
+    LOAD_THEME_CSS: 'Charger les CSS du thème (v3.3.7)'
+    LOAD_POPPER_JS: 'Charger les JS du Popper (v4.1.1)'
     LOAD_CORE_JS: 'Charger les JS du core'
 ro:
   PLUGIN_BOOTSTRAPPER:
@@ -54,5 +59,6 @@ ro:
     USE_CDN_HELP: "Încarcă Bootstrap's CSS și JavaScript din locația CDN"
     MODE: 'Mod'
     LOAD_CORE_CSS: 'Încarcă CSS de bază'
-    LOAD_THEME_CSS: 'Încarcă CSS-ul temei'
+    LOAD_THEME_CSS: 'Încarcă CSS-ul temei (v3.3.7)'
+    LOAD_POPPER_JS: 'Încarcă JS de Popper (v4.1.1)'
     LOAD_CORE_JS: 'Încarcă JS de bază'
