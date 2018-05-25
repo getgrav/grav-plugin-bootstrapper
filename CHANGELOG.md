@@ -1,3 +1,9 @@
+# v2.0.0
+## 05/25/2018
+
+1. [](#new)
+    * Added support for Bootstrap **v4.1.1** (with Popper.js)
+
 # v1.3.4
 ## 02/01/2017
 

@@ -51,30 +51,47 @@ class BootstrapperPlugin extends Plugin
     public function onTwigSiteVariables()
     {
         $config = $this->config->get('plugins.bootstrapper');
+        $version = $config['version'];
         $mode = $config['mode'] == 'production' ? '.min' : '';
 
         $bootstrap_bits = [];
-        $currentVersion = '3.3.7';
+
+        if ($version == 'v4') {
+            $currentVersion = '4.1.1';
+            $bootstrapCDN = 'https://stackpath.bootstrapcdn.com/';
+        } else {
+            $currentVersion = '3.3.7';
+            $bootstrapCDN = 'https://maxcdn.bootstrapcdn.com/';
+        }
+
+        // Popper configuration (Bootstrap 4 only)
+        $currentPopperVersion = '1.14.3';
 
         if ($config['use_cdn']) {
             if ($config['load_core_css']) {
-                $bootstrap_bits[] = "https://maxcdn.bootstrapcdn.com/bootstrap/{$currentVersion}/css/bootstrap{$mode}.css";
+                $bootstrap_bits[] = "{$bootstrapCDN}/bootstrap/{$currentVersion}/css/bootstrap{$mode}.css";
             }
-            if ($config['load_theme_css']) {
-                $bootstrap_bits[] = "https://maxcdn.bootstrapcdn.com/bootstrap/{$currentVersion}/css/bootstrap-theme{$mode}.css";
+            if ($config['load_theme_css'] && $version == 'v3') {
+                $bootstrap_bits[] = "{$bootstrapCDN}/bootstrap/{$currentVersion}/css/bootstrap-theme{$mode}.css";
+            }
+            if ($config['load_popper_js'] && $version == 'v4') {
+                $bootstrap_bits[] = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/{$currentPopperVersion}/umd/popper{$mode}.js";
             }
             if ($config['load_core_js']) {
-                $bootstrap_bits[] = "https://maxcdn.bootstrapcdn.com/bootstrap/{$currentVersion}/js/bootstrap{$mode}.js";
+                $bootstrap_bits[] = "{$bootstrapCDN}/bootstrap/{$currentVersion}/js/bootstrap{$mode}.js";
             }
         } else {
             if ($config['load_core_css']) {
-                $bootstrap_bits[] = "plugin://bootstrapper/css/bootstrap{$mode}.css";
+                $bootstrap_bits[] = "plugin://bootstrapper/css/{$version}/bootstrap{$mode}.css";
             }
-            if ($config['load_theme_css']) {
-                $bootstrap_bits[] = "plugin://bootstrapper/css/bootstrap-theme{$mode}.css";
+            if ($config['load_theme_css'] && $version == 'v3') {
+                $bootstrap_bits[] = "plugin://bootstrapper/css/{$version}/bootstrap-theme{$mode}.css";
+            }
+            if ($config['load_popper_js'] && $version == 'v4') {
+                $bootstrap_bits[] = "plugin://bootstrapper/js/{$version}/popper{$mode}.js";
             }
             if ($config['load_core_js']) {
-                $bootstrap_bits[] = "plugin://bootstrapper/js/bootstrap{$mode}.js";
+                $bootstrap_bits[] = "plugin://bootstrapper/js/{$version}/bootstrap{$mode}.js";
             }
         }
 
