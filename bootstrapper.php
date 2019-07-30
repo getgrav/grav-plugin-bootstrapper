@@ -57,7 +57,7 @@ class BootstrapperPlugin extends Plugin
         $bootstrap_bits = [];
 
         if ($version == 'v4') {
-            $currentVersion = '4.1.1';
+            $currentVersion = '4.3.1';
             $bootstrapCDN = 'https://stackpath.bootstrapcdn.com/';
         } else {
             $currentVersion = '3.3.7';
