@@ -57,15 +57,15 @@ class BootstrapperPlugin extends Plugin
         $bootstrap_bits = [];
 
         if ($version == 'v4') {
-            $currentVersion = '4.1.1';
+            $currentVersion = '4.5.3';
             $bootstrapCDN = 'https://stackpath.bootstrapcdn.com/';
         } else {
-            $currentVersion = '3.3.7';
+            $currentVersion = '3.4.1';
             $bootstrapCDN = 'https://maxcdn.bootstrapcdn.com/';
         }
 
         // Popper configuration (Bootstrap 4 only)
-        $currentPopperVersion = '1.14.3';
+        $currentPopperVersion = '1.16.1';
 
         if ($config['use_cdn']) {
             if ($config['load_core_css']) {
