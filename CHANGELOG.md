@@ -1,3 +1,9 @@
+# v3.0.0
+## mm/dd/2018
+
+1. [](#improved)
+    * Updated to latest versions: `5.0.0-beta3`, `4.6.0`, `3.4.1`
+
 # v2.0.0
 ## 05/25/2018
 

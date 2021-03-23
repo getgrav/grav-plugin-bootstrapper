@@ -32,8 +32,9 @@ form:
       label: PLUGIN_BOOTSTRAPPER.VERSION
       default: 'v3'
       options:
-        v3: 'Bootstrap v3.4.1'
-        v4: 'Bootstrap v4.5.3'
+        v3: 'Bootstrap v3'
+        v4: 'Bootstrap v4'
+        v5: 'Bootstrap v5'
 
     always_load:
       type: toggle
