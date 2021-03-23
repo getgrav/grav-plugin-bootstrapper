@@ -1,5 +1,7 @@
 name: Bootstrapper
-version: 2.0.1
+type: plugin
+slug: bootstrapper
+version: 3.0.0
 description: "Loads the Bootstrap Framework assets for any plugin/theme that needs it"
 icon: bold
 author:
