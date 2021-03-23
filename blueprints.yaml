@@ -1,5 +1,7 @@
 name: Bootstrapper
-version: 2.0.0
+type: plugin
+slug: bootstrapper
+version: 3.0.0
 description: "Loads the Bootstrap Framework assets for any plugin/theme that needs it"
 icon: bold
 author:
@@ -32,8 +34,9 @@ form:
       label: PLUGIN_BOOTSTRAPPER.VERSION
       default: 'v3'
       options:
-        v3: 'Bootstrap v3.3.7'
-        v4: 'Bootstrap v4.1.1'
+        v3: 'Bootstrap v3'
+        v4: 'Bootstrap v4'
+        v5: 'Bootstrap v5'
 
     always_load:
       type: toggle

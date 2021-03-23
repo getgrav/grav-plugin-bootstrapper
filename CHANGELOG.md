@@ -1,3 +1,9 @@
+# v3.0.0
+## 03/23/2021
+
+1. [](#improved)
+    * Updated to latest Bootstrap versions: `5.0.0-beta3`, `4.6.0`, `3.4.1`
+
 # v2.0.0
 ## 05/25/2018
 
