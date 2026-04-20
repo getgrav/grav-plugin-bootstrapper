@@ -56,8 +56,10 @@ class BootstrapperPlugin extends Plugin
 
         $bootstrap_bits = [];
 
-        if ($version == 'v5') {
+        if ($version == 'v538') {
             $currentVersion = '5.3.8';
+        } elseif ($version == 'v5') {
+            $currentVersion = '5.0.0-beta3';
         } elseif ($version == 'v4') {
             $currentVersion = '4.6.0';
         } else {
@@ -73,7 +75,7 @@ class BootstrapperPlugin extends Plugin
             if ($config['load_theme_css'] && $version === 'v3') {
                 $bootstrap_bits[] = "{$bootstrapCDN}/css/bootstrap-theme{$mode}.css";
             }
-            if ($config['load_popper_js'] && ($version == 'v4' || $version === 'v5')) {
+            if ($config['load_popper_js'] && ($version == 'v4' || $version === 'v5' || $version === 'v538')) {
                 $bootstrap_bits[] = "{$bootstrapCDN}/js/bootstrap.bundle{$mode}.js";
             } else {
                 if ($config['load_core_js']) {
@@ -87,7 +89,7 @@ class BootstrapperPlugin extends Plugin
             if ($config['load_theme_css'] && $version === 'v3') {
                 $bootstrap_bits[] = "plugin://bootstrapper/css/{$version}/bootstrap-theme{$mode}.css";
             }
-            if ($config['load_popper_js'] && ($version === 'v4' || $version === 'v5')) {
+            if ($config['load_popper_js'] && ($version === 'v4' || $version === 'v5' || $version === 'v538')) {
                 $bootstrap_bits[] = "plugin://bootstrapper/js/{$version}/bootstrap.bundle{$mode}.js";
             } else {
                 if ($config['load_core_js']) {
