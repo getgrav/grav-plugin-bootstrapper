@@ -57,7 +57,7 @@ class BootstrapperPlugin extends Plugin
         $bootstrap_bits = [];
 
         if ($version == 'v5') {
-            $currentVersion = '5.0.0-beta3';
+            $currentVersion = '5.3.8';
         } elseif ($version == 'v4') {
             $currentVersion = '4.6.0';
         } else {
