@@ -1,7 +1,7 @@
 name: Bootstrapper
 type: plugin
 slug: bootstrapper
-version: 3.0.0
+version: 3.0.1
 description: "Loads the Bootstrap Framework assets for any plugin/theme that needs it"
 icon: bold
 author:
@@ -13,6 +13,9 @@ demo: http://demo.getgrav.org/bootstrap-skeleton/
 keywords: bootstrap, css, plugin, framework
 bugs: https://github.com/getgrav/grav-plugin-bootstrapper/issues
 license: MIT
+
+compatibility:
+  grav: ['1.7', '2.0']
 
 form:
   validation: strict
