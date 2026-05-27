@@ -35,12 +35,12 @@ form:
       type: select
       size: small
       label: PLUGIN_BOOTSTRAPPER.VERSION
-      default: 'v538'
+      default: 'v53'
       options:
         v3: 'Bootstrap v3.4.1'
         v4: 'Bootstrap v4.6.0'
         v5: 'Bootstrap v5.0.0 Beta'
-        v538: 'Bootstrap v5.3.8'
+        v53: 'Bootstrap v5.3.8'
 
     always_load:
       type: toggle
