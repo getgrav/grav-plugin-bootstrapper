@@ -1,3 +1,12 @@
+# v3.1.0
+## next
+
+1. [](#improved)
+   * Adds a 4th option v538 for Bootstrap 5.3.8 (CSS + JS, including maps)
+   * Changes default from v3 → v538
+   * Updates option labels to include exact versions
+   * Threads v538 through the version conditionals in bootstrapper.php
+
 # v3.0.1
 ## 05/01/2026
 

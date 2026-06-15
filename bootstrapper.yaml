@@ -1,5 +1,5 @@
 enabled: true
-version: v3
+version: v53
 always_load: false
 use_cdn: false
 mode: production
